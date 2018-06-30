@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#moveItem {
+    width: 75px;
+    height: 75px;
+    background-color: #FF3333;
+    position: absolute;
+    border-radius: 50%;
+}
+#rectangle {
+
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    position: absolute;
+    border-radius: 50%
+    
+
+
+}

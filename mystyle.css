@@ -1,0 +1,68 @@
+body {
+    background-color: #202020;
+    font-family: Impact;
+    font-variant: unset;
+    font-weight: 100;
+}
+
+p {
+    color: #FFFFFF;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+button {
+    background-color: aqua;
+}
+
+div {
+    position:relative;
+    }
+    #nav {
+    position:absolute;
+    left:50%;
+    top:0;
+    margin-left:-375px; /* negative margin equal to half the width */
+    width:750px;
+    list-style:none;
+    }
+    #nav li {
+    float:left;
+    }
+    #nav a {
+    display:block;
+    text-align:center;
+    width:150px; /* fixed width */
+    text-decoration:none; 
+    }
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    /*text-align: center; */
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+} 

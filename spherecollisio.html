@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+
+<head>
+    <title>Circle follow mouse</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" type="text/css" href="spiel.css">
+
+    <style>
+    
+    #canvas {
+      outline: 1px solid black;
+    } 
+
+    #moveItem {
+        /*outline: 1px solid green;
+    */
+        background-color: green;
+    }
+
+    #restartatgover:hover {
+
+        background-image: url(spherecollision_restartbutton_hovered.png);
+
+    }
+
+  
+
+
+
+    </style>
+</head>
+
+<body id="body">
+ 
+<ul id="nav">
+   <li><a href="home.html">Home</a></li>
+   <li><a href="page1.html">Page 1</a></li>
+   <li><a href="spherecollision.html" style="background-color: #222222">SphereCollision</a></li>
+   <li><a href="bubblesort.html">BubbleSort</a></li>
+</ul>
+
+
+<br>
+<br>
+<br>
+
+    <div id="moveItem"></div>
+    <div id="collectable"></div>
+    <img id="restart" onclick="restarting()">
+
+    <div id="collecdiv"></div>
+
+    
+
+    <script src="spherecollision.js"></script>
+</body>
+
+</html>
